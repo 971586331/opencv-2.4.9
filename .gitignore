@@ -1,0 +1,9 @@
+build/
+.tgitconfig
+modules/python/src2/hdr_parser.pyc
+*.o
+samples/cpp/1_5_1/1_5_1
+samples/cpp/1_5_2/1_5_2
+samples/cpp/1_5_3/1_5_3
+samples/cpp/1_5_4/1_5_4
+samples/cpp/1_6_1/1_6_1
