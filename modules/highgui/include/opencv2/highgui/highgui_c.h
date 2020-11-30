@@ -193,9 +193,9 @@ enum
 {
 /* 8bit, color or not */
     CV_LOAD_IMAGE_UNCHANGED  =-1,
-/* 8bit, gray */
+/* 8bit, gray 灰度 */
     CV_LOAD_IMAGE_GRAYSCALE  =0,
-/* ?, color */
+/* ?, color 彩色 */
     CV_LOAD_IMAGE_COLOR      =1,
 /* any depth, ? */
     CV_LOAD_IMAGE_ANYDEPTH   =2,
