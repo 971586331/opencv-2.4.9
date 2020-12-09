@@ -28,7 +28,6 @@ shutil.copytree(source_path, target_path)
 templist = os.listdir(target_path)
 for name in templist:
     fullname = os.path.join(target_path, name)
-    print "fullname : " + fullname
     if(os.path.isdir(fullname) == False):
         if( (fullname[-3:].lower()=="cpp") or (fullname[-3:].lower()=="hpp") or 
         (fullname[-1:].lower()=="c") or (fullname[-1:].lower()=="h") or 
@@ -44,7 +43,6 @@ os.rename(target_path + "/" + input_dir + ".cpp", target_path + "/" + output_dir
 f = open(target_path + "/makefile", 'r')
 str = f.read()
 f.close()
-print "str : " + str
 new_str = str.replace(input_dir, output_dir)
 
 f = open(target_path + "/makefile", 'w+')
